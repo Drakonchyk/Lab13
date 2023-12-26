@@ -29,5 +29,5 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: |
-          cd lab13
+          cd Lab13
           mvn -B package --file pom.xml
